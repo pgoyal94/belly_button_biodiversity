@@ -105,7 +105,7 @@ function buildCharts(sample) {
       title: 'Top 10 Bacteria Cultures Found',
       titlefont: {"size": 25},
       yaxis: {autorange:'reversed'},
-      xaxis: {title: 'Sample Value'}
+      xaxis: {title: 'Sample Value'},
     };
     // 10. Use Plotly to plot the data with the layout. 
     Plotly.newPlot("bar", barData, barLayout);
